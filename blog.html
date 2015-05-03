@@ -1,0 +1,129 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Getting Started with Bootstrap </title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		
+		<nav class="navbar navbar-inverse navbar-static-top "  role="navigation">
+			<!-- navbar-default usual one ; navbar-static-top stretches the side bar to entire screen..border redius removed-->
+  		<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+   
+    <div class="navbar-header">
+				<button type="button" class="navbar-toggle" 
+				data-toggle="collapse" data-target="#CD-navbar-collapse-1">   <!-- id which you are targeting -->
+					<span class="sr-only"> Toggle Navigation</span>	
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>  <!-- this four will display an icon bar when collapse which will have 4 lines nside it..like in jquery-mobile -->
+				</button>	
+     <a class="navbar-brand" href="#">  NIT Nagaland</a>
+			</div>	
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="CD-navbar-collapse-1">  <!-- navbar-right you can add -->
+			<!--  <div class="navbar-header"> --> <!-- navbar-right wiil send all links to right ..but tis is ot responsive-->
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home </a></li>
+       
+			 		<li class="active" > <a href="index.html"> Blog </a> <span class="sr-only">(current)</span> </li>
+			 		<li > <a href="index.html"> Contact </a> </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>	
+			 </div>	
+			</div>
+		</nav> 
+
+		<div class="container">
+
+			<div class="row">
+				
+		
+		<div class="col-md-8 col-md-push-3">
+			<div class="panel panel-default">
+				<div class="panel-body">
+			<div class="row">
+				<div class="col-md-9"> 
+					<img src="logo.jpg" class="img-responsive" > </img>
+				</div><!-- visible-md visible-xs hiddne-md,etc will hide and show -->
+				<div class="col-md-3"> 
+					<p class="h4"><span class="glyphicon glyphicon-eye-open" style="color:blue;font-size:42px"> </span> 300  </p>
+					<p class="h4"> <span class="glyphicon glyphicon-thumbs-up" style="color:blue;font-size:42px"> </span> 200  </p>
+				</div>
+			 </div>  <!-- row -->
+
+			<p class="h4 text-center"> Title for Blog Post<br/> <small>16 june 2015</small> </p>
+			<p class="text-justify"> printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th</p>
+			<blockquote class="blockquote-reverse"><p class="text-justify"> printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th</p><footer> Said By Ashish</footer></blockquote>
+		</div>
+	</div>
+</div>
+
+		
+		<div class="col-md-3 col-md-pull-8">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h4> SideBar with Links </h4>
+					<ul>
+						<li> <a href="#"> Link 1 </a>  </li>
+						<li> <a href="#"> Link 2</a> </li>
+						<li> <a href="#"> Link 3</a> </li>
+						<li> <a href="#"> Link 4</a> </li>
+					</ul>
+				</div>  <!-- md-3 -->
+			</div>
+		</div>
+	</div>
+
+	</div> <!-- container -->	
+		
+		
+
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+		<p> This is a footer </p>
+		</div>
+
+		<div class="bottom-footer">
+			<div class="col-md-5"> &copy; NIT Nagaland</div>
+			<div class="col-md-7">
+				<ul class="footer-nav">
+					<li> <a href="index.html"> Home </li>
+					<li> <a href="index.html"> About </li>
+					<li> <a href="index.html"> Blog </li>
+				</ul>
+			 </div>
+		</div>	
+	</div>
+</footer>	
+
+		 
+
+		<script src="bootstrap/js/jquery.min.js"> </script>
+		<script src="bootstrap/js/bootstrap.min.js"> </script>
+	</body>
+	
+	</html>	
+

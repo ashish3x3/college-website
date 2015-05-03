@@ -1,0 +1,633 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> NIT Nagaland </title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap/css/style.css" rel="stylesheet">
+
+
+									<!-- Style Section start -->
+	<style type="text/css">
+	.carousel-inner h2{
+		margin: 0;     
+		color: #666;
+		padding-top: 90px;
+		font-size: 52px;
+		font-family: "trebuchet ms", sans-serif;    
+	}
+	.item{
+		background: #333;    
+		text-align: center;
+		height: 300px !important;
+	}
+	.carousel{
+		margin-top: 20px;
+	}
+	.bs-example{
+		margin: 20px;
+	}
+
+
+	/*vertical slider corosorel*/
+	.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+   -webkit-transition: 0.6s ease-in-out top;
+   -moz-transition: 0.6s ease-in-out top;
+   -ms-transition: 0.6s ease-in-out top;
+   -o-transition: 0.6s ease-in-out top;
+   transition: 0.6s ease-in-out top;
+}
+
+.carousel.vertical .active {
+   top: 0;
+}
+
+.carousel.vertical .next {
+   top: 400px;
+}
+
+.carousel.vertical .prev {
+   top: -400px;
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+   top: 0;
+}
+
+.carousel.vertical .active.left {
+   top: -400px;
+}
+
+.carousel.vertical .active.right {
+   top: 400px;
+}
+
+.carousel.vertical .item {
+   left: 0;
+}
+	/*end of vertical slider*/
+
+/*.nav.alon{
+	 a:hover { color: #000 ; }
+}	*/
+
+ 
+.up { 
+	bottom:100% !important; top:auto !important;
+}
+
+.btn{
+margin-bottom:12px;
+}
+
+
+
+
+	</style>
+
+														<!-- Style Section end -->
+
+
+</head>
+</head>
+
+<body>
+
+	<!-- starting of Jumbotron -->
+	<div class="jumbotron no-margin no-padding"> <!-- page-header no-margin no-padding removed -->
+		<!-- You can place this entire nelow or above the nav bar -->
+		<div class="container">   <!-- container center image inside it -->
+			<!-- <img src="ban.jpg" class="img-responsive"> -->
+			
+			<img src="logo.jpg" height="100px" class="pull-left " > <!-- id="lg-img" -->
+			<h2 class="no-margin" style="font-weight:bold;font-family:ariel" >NIT Nagaland</h2>
+			<ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="javascript:void(0)" data-toggle="search">
+                            <i class="pe-7s-search" style="color:blue;font-size:42px"></i>
+                            <p>Search</p>
+                        </a>
+                    </li>
+                </ul>    
+			
+			
+
+		</div>
+	</div>	 <!-- jumbotron -->
+	<!-- End of Jumbotron -->
+
+	<!-- starting of Navigation -->
+	<nav class="navbar navbar-inverse nav-pills no-margin no-padding"  role="navigation" style="background-color: #4040ff;">
+		<!-- navbar-default usual one ; navbar-static-top stretches the side bar to entire screen..border redius removed
+
+	navbar-static-top-->
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" 
+				data-toggle="collapse" data-target="#CD-navbar-collapse-1">   <!-- id which you are targeting -->
+				<span class="sr-only"> Toggle Navigation</span>	
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>  <!-- this four will display an icon bar when collapse which will have 4 lines nside it..like in jquery-mobile -->
+			</button>	
+			<a class="navbar-brand" href="#">  <img src="logo.jpg"  id="ban-img" class="pull-left img-responsive "></a>
+		</div>	
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse " id="CD-navbar-collapse-1">  <!-- navbar-right you can add -->
+			<!--  <div class="navbar-header"> --> <!-- navbar-right wiil send all links to right ..but tis is ot responsive-->
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="site.html">Home <span class="sr-only">(current)</span></a></li>
+
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" data-delay="5" data-close-others="false">Administration <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="nitcouncil.html">NIT Council</a></li>
+						<li><a href="director.html">Director</a></li>
+						<li><a href="chairman.html">Chairman</a></li>
+						
+						<li><a href="boardofgovernors.html">Board of Governors</a></li>
+						<li><a href="financecommittee.html">Finance Committee</a></li>
+						
+						<li><a href="academicsenate.html">Academic Senate</a></li>
+						<li><a href="buildingandworkscommittee.html">Building and Works Committee</a></li>
+						<li><a href="administrativeofficers.html">Administrative Officers</a></li>
+					</ul>
+				</li> <!-- class dropdown -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" data-delay="5" data-close-others="false">Academics <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="centers.html">Centers</a></li>
+						<li><a href="mou.html">MoU</a></li>
+						
+						
+						<li><a href="courses.html">Courses</a></li>
+						
+						<li><a href="admissions.html">Admissions</a></li>
+						<li><a href="rulesandregulation.html">Rules &amp; Regulation</a></li>
+						<li><a href="curriculam.html">Curriculum &amp; Syllabus</a></li>
+						<li><a href="academiccalendar.html">Academic Calendar</a></li>
+						<li><a href="scholarship.html">Scholarships</a></li>
+						<li><a href="formsabdapplication.html">Forms / Applications</a></li>
+						<li><a href="ebooksandjournals.html">E-books / Journals Access</a></li>
+						<li><a href="results.html">Results</a></li>
+
+
+					</ul>
+				</li> <!-- class dropdown -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" data-delay="5" data-close-others="false">Departments <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="cse.html">Computer Science and Engineering</a></li>
+						<li><a href="eee.html">Electrical abd Electronics Engineering</a></li>
+						<li><a href="ece.html">Electronics and Communication Engineering</a></li>
+						<li><a href="ce.html">Civil Engineering</a></li>
+						<li><a href="me.html">Mechanical Engineering</a></li>
+						<li><a href="sh.html">Science and humanities</a></li>
+
+					</ul>
+				</li> <!-- class dropdown -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" data-delay="5" data-close-others="false">Student &amp; Affairs <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="events.html">Events</a></li>
+						<li><a href="studentsclubsandassociation.html">Students Clubs and Associations</a></li>
+						<li><a href="studentwelfare.html">Student Welfare</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="scholarships.html">Scholarships</a></li>
+						
+
+					</ul>
+				</li> <!-- class dropdown -->
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false" data-delay="5" data-close-others="false">Facilities <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="library.html">Library</a></li>
+						<li><a href="datacenter.html">Data Center</a></li>
+						<li><a href="hostels.html">Hostels</a></li>
+						<li><a href="bankandatm.html">Bank &amp; ATM</a></li>
+						<li><a href="postoffice.html">Post Office</a></li>
+						<li><a href="sports.html">Sports</a></li>
+						<li><a href="canteen.html">Canteen</a></li>
+
+					</ul>
+				</li> <!-- class dropdown -->
+
+				<li    ><a href="research.html">Research </a></li>
+				<li   ><a href="email.html">e-Mail </a></li>
+
+			</ul>	
+		</div>	<!-- div collapsed -->
+
+	</nav>  <!-- full navigation -->
+
+	<!-- End of Navigation -->
+
+	<!-- starting of corsoreal -->
+	<!-- Code -->
+	<div class="row">
+
+		<div class="col-md-5 ">
+			<div class="panel panel-default">
+				<div class="panel-body"> 
+
+					<div class="bs-example">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+							<!-- Carousel indicators -->
+
+							<ol class="carousel-indicators">
+
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+
+							</ol>   
+
+							<!-- Carousel items -->
+
+							<div class="carousel-inner">
+
+								<div class="item active">
+
+
+									<h2>Slide 1</h2>
+									<img src="ban.jpg" alt="..." class="img-responsive">
+
+									<div class="carousel-caption">
+
+										<h3>First slide label</h3>
+
+										<p>Lorem ipsum dolor sit amet consectetur…</p>
+
+										<p > <a class="  btn btn-primary btn-lg" 
+											href="#" role="button">Learn more</a> </p>
+
+										</div>
+
+									</div>
+
+									<div class="item">
+
+										<h2>Slide 2</h2>
+										<img src="ban.jpg" alt="..." class="img-responsive">
+
+										<div class="carousel-caption">
+
+											<h3>Second slide label</h3>
+
+											<p>Aliquam sit amet gravida nibh, facilisis gravida…</p>
+											<p > <a class="  btn btn-primary btn-lg" 
+												href="#" role="button">Learn more</a> </p>
+
+											</div>
+
+										</div>
+
+										<div class="item">
+
+											<h2>Slide 3</h2>
+											<img src="ban.jpg" alt="..." class="img-responsive">
+
+											<div class="carousel-caption">
+
+												<h3>Third slide label</h3>
+
+												<p>Praesent commodo cursus magna vel…</p>
+												<p > <a class="  btn btn-primary btn-lg" 
+													href="#" role="button">Learn more</a> </p>
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<!-- Carousel nav -->
+
+										<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+
+											<span class="glyphicon glyphicon-chevron-left"></span>
+
+										</a>
+
+										<a class="carousel-control right" href="#myCarousel" data-slide="next">
+
+											<span class="glyphicon glyphicon-chevron-right"></span>
+
+										</a>
+
+									</div>
+								</div>
+							</div> </div>  <!-- label -->
+
+						</div>  <!-- col-md -->
+
+
+
+						<div class="col-md-4 col-md-offset-3">
+							<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">Events</h3>
+							</div>
+							<div class="panel-body">
+								
+
+									<div class="bs-example">
+										<div id="myCarouselV" class="carousel slide vertical " data-ride="carousel">
+
+											<!-- Carousel indicators -->
+
+											<ol class="carousel-indicators">
+
+												<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+												<li data-target="#myCarousel" data-slide-to="1"></li>
+
+												<li data-target="#myCarousel" data-slide-to="2"></li>
+
+											</ol>   
+
+											<!-- Carousel items -->
+
+											<div class="carousel-inner">
+
+												<div class="item active">
+
+
+													<h2>Slide 1</h2>
+													<img src="ban.jpg" alt="..." class="img-responsive">
+
+													<div class="carousel-caption">
+
+														<h3>First slide label</h3>
+
+														<!-- <p>Lorem ipsum dolor sit amet consectetur…</p> -->
+
+														<p > <a class="  btn btn-primary btn-lg" 
+															href="#" role="button">Learn more</a> </p>
+
+														</div>
+
+													</div>
+
+													<div class="item">
+
+														<h2>Slide 2</h2>
+														<img src="ban.jpg" alt="..." class="img-responsive">
+
+														<div class="carousel-caption">
+
+											<!-- <h3>Second slide label</h3>
+
+											<p>Aliquam sit amet gravida nibh, facilisis gravida…</p> -->
+											<p > <a class="  btn btn-primary btn-lg" 
+												href="#" role="button">Learn more</a> </p>
+
+											</div>
+
+										</div>
+
+										<div class="item">
+
+											<h2>Slide 3</h2>
+											<img src="ban.jpg" alt="..." class="img-responsive">
+
+											<div class="carousel-caption">
+
+												<h3>Third slide label</h3>
+
+												<!-- <p>Praesent commodo cursus magna vel…</p> -->
+												<p > <a class="  btn btn-primary btn-lg" 
+													href="#" role="button">Learn more</a> </p>
+
+												</div>
+
+											</div>
+
+										</div>
+
+										<!-- Carousel nav -->
+
+										<a class="carousel-control left" href="#myCarouselV" data-slide="prev">
+
+											<span class="glyphicon glyphicon-chevron-left"></span>
+
+										</a>
+
+										<a class="carousel-control right" href="#myCarouselV" data-slide="next">
+
+											<span class="glyphicon glyphicon-chevron-right"></span>
+
+										</a>
+
+									</div>
+								</div>   <!-- bs example -->
+							</div>  <!-- panel body -->
+							<div class="panel-footer clearfix">
+
+								<div class="pull-right">
+
+									<a href="#" class="btn btn-primary">Learn More</a>
+
+									<a href="#" class="btn btn-default">Go Back</a>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+					</div> <!-- row -->
+
+
+					<!-- ending of Corsoreal -->
+
+					<div class="bs-example" style="margin:0px;">
+
+
+						
+							<div class="panel panel-default">
+								<!-- give panel heading and hide it for big screen -->
+
+							<div class="panel-heading">
+								<h3 class="panel-title hidden-md hidden-lg">More Links</h3>
+							</div>
+								<div class="panel-body"> 
+									<div class="row">
+									<div class="col-md-11 col-xs-2 col-md-offset-1">
+
+						
+						<div class="btn-group" role="group">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" 
+						data-hover="dropdown"  aria-expanded="false">Student DashBoard <span class="caret"></span>
+					</button>
+						<!-- <div class="dropup"> -->
+						<ul class="dropdown-menu up"  role="menu" aria-labelledby="dLabel" >
+								<li><a href="#">Enrolment/Registration</a></li>
+								<li><a href="#">Examination Result</a></li>
+								<li><a href="#">Students Corner</a></li>
+							</ul>
+						</div>
+
+					<!-- </div> -->
+						<div class="btn-group" role="group">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" 
+						data-hover="dropdown"  aria-expanded="false">Recruitment <span class="caret"></span>
+					</button>
+						<!-- <div class="dropup"> -->
+						<ul class="dropdown-menu up"  role="menu" aria-labelledby="dLabel" >
+								<li><a href="#">Advertisement</a></li>
+								<li><a href="#">Eligibility Norms</a></li>
+								<li><a href="#">Further Details</a></li>
+								<li><a href="#">Selection Criteria</a></li>
+								<li><a href="#">Application Forms</a></li>
+								<li><a href="#">Interview Schedule</a></li>
+							</ul>
+						</div>
+
+					<!-- </div> -->
+						<!-- </div> -->
+
+						<div class="btn-group" role="group">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" 
+						data-hover="dropdown"  aria-expanded="false">Quick Links <span class="caret"></span>
+					</button>
+						<!-- <div class="dropup"> -->
+						<ul class="dropdown-menu up"  role="menu" aria-labelledby="dLabel" >
+								<li><a href="#">List of Holidays-2015</a></li>
+								<li><a href="#">NPTEL</a></li>
+								<li><a href="#">NKN</a></li>
+								<li><a href="#">Archives</a></li>
+								<li><a href="#">Forms for Download</a></li>
+								
+							</ul>
+						</div>
+
+					<!-- </div> -->
+					<button type="button" class="btn btn-primary">Contact-Us</button>
+
+						<button type="button" class="btn btn-primary">Placement Cell</button>
+						<button type="button" class="btn btn-primary">Admission</button>
+						<button type="button" class="btn btn-primary">latest News</button>
+
+					</div>
+				</div>
+
+				<div class="row" style="margin-top: 12px;">
+									<div class="col-md-11 col-md-offset-1">
+
+
+						<button type="button" class="btn btn-primary">Tender</button>
+						<button type="button" class="btn btn-primary">Location Map</button>
+						<button type="button" class="btn btn-primary">RTI</button>
+						<button type="button" class="btn btn-primary">Public Grievances</button>
+
+
+						<button type="button" class="btn btn-primary">Anti Ragging Affidavits</button>
+						<button type="button" class="btn btn-primary">From Director</button>
+						<button type="button" class="btn btn-primary">Gallary</button>
+						<button type="button" class="btn btn-primary">Results</button>
+					</div>
+				</div>
+
+				</div>  <!-- panel  -->
+			
+			
+
+
+					</div>
+
+					<!-- starting of corsoreal -->
+					<!-- Code -->
+					<!-- ending of Corsoreal -->
+
+
+
+
+
+					<!-- Footer Section Start -->
+
+
+					<footer class="site-footer">
+						<div class="container">
+							<div class="row">
+								<p> NIT Nagaland<br> Chumukedima,Dimapur <br/> Nagaland 797 103 </p>
+							</div>
+
+							<div class="bottom-footer">
+								<div class="col-md-5"> Copyrights © NIT Nagaland 2014. All rights reserved. </div>
+								<div class="col-md-7">
+									<ul class="footer-nav">
+										Designed &amp; Programmed By :<br/>
+										<p> <a href="https://www.facebook.com/ashish3x3" style="text-decoration:underline;" >Ashish Kumar Singh </a> | 
+											<a href="https://www.facebook.com/thejazeto.lhousa" style="text-decoration:underline;">Theja </a> | <a href="https://www.facebook.com/dilwarhm" style="text-decoration:underline;">Dilwar Hussain Mazumder(Mentor)</a> </p>
+									</ul>
+								</div>
+							</div>	
+						</div>
+					</footer>	
+
+					<!-- Footer Section end -->
+
+
+
+					<!-- Script Section Start -->
+
+					<script src="bootstrap/js/jquery.min.js"> </script>
+					<script src="bootstrap/js/bootstrap.min.js"> </script>
+					<script src="bootstrap/js/bootstrap-dropdown-on-hover-plugin.js"> </script>
+					<script type="text/javascript">
+					$(document).ready(function () {
+						/*$('.dropdown-toggle').mouseover(function() {
+							$('.dropdown-menu').show();
+						})
+
+						$('.dropdown-toggle').mouseout(function() {
+							t = setTimeout(function() {
+								$('.dropdown-menu').hide();
+							}, 100);
+
+							$('.dropdown-menu').on('mouseenter', function() {
+								$('.dropdown-menu').show();
+								clearTimeout(t);
+							}).on('mouseleave', function() {
+								$('.dropdown-menu').hide();
+							})
+						})  /*mouseOut*/*/
+
+
+
+						$("#myCarousel").carousel({
+
+							interval : 2000,
+
+							pause: false
+
+						});
+
+						$('#myCarouselV').carousel({
+							interval: 3000
+						});
+
+
+					})   /*doc,ready*/
+
+					</script>
+
+					<!-- Script section end -->
+				</body>
+
+				</html>	
+

@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Getting Started with Bootstrap </title>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		
+		<nav class="navbar navbar-inverse navbar-static-top no-margin"  role="navigation">
+			<!-- navbar-default usual one ; navbar-static-top stretches the side bar to entire screen..border redius removed-->
+  		<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+   
+    <div class="navbar-header">
+				<button type="button" class="navbar-toggle" 
+				data-toggle="collapse" data-target="#CD-navbar-collapse-1">   <!-- id which you are targeting -->
+					<span class="sr-only"> Toggle Navigation</span>	
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>  <!-- this four will display an icon bar when collapse which will have 4 lines nside it..like in jquery-mobile -->
+				</button>	
+     <a class="navbar-brand" href="#">  NIT Nagaland</a>
+			</div>	
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="CD-navbar-collapse-1">  <!-- navbar-right you can add -->
+			<!--  <div class="navbar-header"> --> <!-- navbar-right wiil send all links to right ..but tis is ot responsive-->
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+       
+			 		<li > <a href="blog.html"> Blog </a> </li>
+			 		<li > <a href="index.html"> Contact </a> </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>	
+			 </div>	
+			</div>
+		</nav> 
+		
+		<div class="jumbotron"> <!-- page-header no-margin no-padding removed -->
+			<!-- You can place this entire nelow or above the nav bar -->
+			<div class="container">   <!-- container center image inside it -->
+			<!-- <img src="ban.jpg" class="img-responsive"> -->
+			<div class="panel panel-default">
+				 <div class="panel-body"> 
+			<img src="logo.jpg" height="100px" class="pull-left">
+			<h2 class="no-margin" >NIT Nagaland</h2>
+				
+			
+			 <p class="text-justify" >printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+			 <p > <a class="  btn btn-primary btn-lg" 
+			 	href="#" role="button">Learn more</a> </p> <!-- col-md-offset-1 moves a col by 4 forward -->
+			 </div> </div>  <!-- panel class -->
+			</div>
+		</div>	
+		<div class="container">
+			<div class="col-sm-6 col-md-4 ">
+				<div class="panel panel-default">
+				 <div class="panel-body"> 
+				<h4> Title of the Post </h4>
+		<p class="text-justify">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+		<a href="#" class="btn btn-success active"> Read More </a>
+		</div> </div>  <!-- panel class -->
+	</div>
+	<div class=" col-sm-6 col-md-4  ">  <!-- col-md-offset-1 col-sm-offset-1 removed -->
+		
+				<div class="panel panel-default">
+				 <div class="panel-body"> 
+					
+		<h4> Title of the Post </h4>
+		<p class="text-justify">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+		<a href="#" class="btn btn-default active"> Read More </a>
+		</div> </div>  <!-- panel class -->
+	</div>
+	<div class="col-sm-6 col-md-4  ">
+		
+				<div class="panel panel-default">
+				 <div class="panel-body"> 
+		<h4> Title of the Post </h4>
+	<p class="text-justify">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+	<a href="#" class="btn btn-primary active"> Read More </a>
+	</div> </div>  <!-- panel class -->
+	</div>
+	<div class="row container">
+
+	<div class="col-sm-6 col-md-4 ">
+		
+				<div class="panel panel-default">
+				 <div class="panel-body"> 
+					
+		<h4> Title of the Post </h4>
+	<p class="text-justify">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+	<a href="#" class="btn btn-primary active"> Read More </a>
+	</div> </div>  <!-- panel class -->
+	</div>
+	<div class="col-sm-6 col-md-4 ">
+		
+				<div class="panel panel-default">
+				 <div class="panel-body"> 
+					
+		<h4> Title of the Post </h4>
+	<p class="text-justify">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+	<a href="#" class="btn btn-primary active"> Read More </a>
+	</div> </div>  <!-- panel class -->
+	</div>
+	
+	</div>
+	<div class="row container">
+	<div class="col-sm-6 col-md-4  ">
+		<div class="panel panel-default">
+				 <div class="panel-body"> 
+
+		<h4> Title of the Post </h4>
+	<p class="text-justify">printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also th </p>
+	<a href="#" class="btn btn-primary active"> Read More </a>
+	</div> </div>  <!-- panel class -->
+	</div>
+</div>
+</div>
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+		<p> This is a footer </p>
+		</div>
+
+		<div class="bottom-footer">
+			<div class="col-md-5"> &copy; NIT Nagaland</div>
+			<div class="col-md-7">
+				<ul class="footer-nav">
+					<li> <a href="index.html"> Home </li>
+					<li> <a href="index.html"> About </li>
+					<li> <a href="index.html"> Blog </li>
+				</ul>
+			 </div>
+		</div>	
+	</div>
+</footer>	
+
+		 
+
+		<script src="bootstrap/js/jquery.min.js"> </script>
+		<script src="bootstrap/js/bootstrap.min.js"> </script>
+	</body>
+	
+	</html>	
+
